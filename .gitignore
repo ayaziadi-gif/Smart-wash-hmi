@@ -1,0 +1,35 @@
+# Compilation CMake (simulateur PC)
+build/
+cmake-build-*/
+_deps/
+CMakeFiles/
+CMakeCache.txt
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+
+# LVGL telecharge automatiquement (si non utilise en sous-module)
+lib/lvgl/
+
+# ESP-IDF (dossier esp32/)
+esp32/build*/
+esp32/sdkconfig
+esp32/sdkconfig.old
+esp32/managed_components/
+esp32/dependencies.lock
+doxygen_output/
+dist/
+__pycache__/
+
+# Editeurs / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Captures du simulateur
+smart_wash_capture.bmp

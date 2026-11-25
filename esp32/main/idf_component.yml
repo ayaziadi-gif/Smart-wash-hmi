@@ -1,0 +1,7 @@
+## Dependances gerees par l'IDF Component Manager (telechargees au premier build)
+dependencies:
+  idf: ">=5.1"
+  # BSP de la carte Espressif ESP32-S3-LCD-EV-Board : ecran RGB, tactile, esp_lvgl_port
+  espressif/esp32_s3_lcd_ev_board: "*"
+  # Meme version de LVGL que le simulateur PC
+  lvgl/lvgl: "~9.2.0"
